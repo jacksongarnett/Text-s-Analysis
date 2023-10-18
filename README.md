@@ -35,7 +35,7 @@ Dive into your messaging world with Text(s) Analysis! Discover  insights into yo
 - In Finder: Navigate to the Messages datbase Macintosh HD > Users > Jax (your username) > Library > Messages > chat.db
 - Copy (COPY! don't cut) this file and paste it in your project folder
 
-(I referenced this Stack Exchange thread: https://apple.stackexchange.com/questions/321521/can-i-access-contact-names-in-chat-db)
+(I referenced this [Stack Exchange thread](https://apple.stackexchange.com/questions/321521/can-i-access-contact-names-in-chat-db)
 - Again in finder: Navigate to the Contacts datbase (see above)
 - Copy (yes copy!) this file and paste it in your project folder
 
