@@ -25,10 +25,10 @@ A fun project to access the Messages and Contacts databases on MacOS
 
 ## Overview
 
-Dive into your messaging world with Text(s) Analysis! Discover  insights into your texting habits, from total texts sent to the percentage of TikToks shared. Let's turn your Messages and Contacts databases into a visual masterpiece!
+Dive into your messaging world with Text(s) Analysis! Discover insights into your texting habits, from total texts sent to the percentage of TikToks shared. Let's turn your Messages and Contacts databases into a visual masterpiece!
 
 
-##Step 1: Copy Messages and Contacts databases.
+## Step 1: Copy Messages and Contacts databases.
 ###To prevent any chance of altering or borking live databases, copy the Messages and Contacts database into a new folder that you can use as the base of your project. Note: Your file path may be slightly different than mine. 
 (tip) you may need to show hidden files in Finder:   Command + Shift + . (period) 
 
@@ -41,7 +41,7 @@ Dive into your messaging world with Text(s) Analysis! Discover  insights into yo
 
 
 
-##Step 2: Build and query data with SQLite.
+## Step 2: Build and query data with SQLite.
 
 - In SQLite (I used SQLite3) connect to both the AddressBook and chat datbases.  I aliased the AddressBook database as 'contacts'
 
@@ -87,32 +87,13 @@ ORDER BY datetime
 ---------------------------------------------------------------------------------------------
 
 
-##Step 3: Connect data to Tableau and build the dashboard.
+## Step 3: Connect data to Tableau and build the dashboard.
 
+- Connecte the resulting data to Tableau and start building!  If you don't have a license of Tableau Desktop available, you can download the free-to-use Tableau Public application.  This version of Tableau supports only a few types of files and dashboards can only be published to Tableau Public, not any version of Tableau Server or cloud. [Download Tableau Public](https://public.tableau.com/app/discover)
 
-
-
-#Step 3: Write the Tutorial
-Unlocking Insights: Analyzing Messages on your Mac."
-Under "Overview," rephrase the description to make it engaging. For example:
-"Dive into your messaging world with Text(s) Analysis! Discover fascinating insights into your texting habits, from total texts sent to the percentage of TikToks shared. Let's turn your Messages and Contacts databases into a visual masterpiece!"
-
-
-For "Tutorial Overview," break down the steps. Use a format like this:
-Step 1: Copy Messages and Contacts databases.
-Step 2: Build and query data with SQLite.
-Step 3: Connect data to Tableau and build the dashboard.
-Optional: Download the pre-built dashboard from Tableau Public.
 
 
 Prerequisites
-- Mac with iCloud Messages.
+- Mac using iCloud Messages.
 - SQLite 3 installed.
 - Tableau Public downloaded.
-
-
-Additional Tips
-tips, license 
-
-
-Links and Formatting
